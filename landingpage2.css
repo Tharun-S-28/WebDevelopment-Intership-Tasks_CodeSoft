@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.hero {
+   display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #222;
+}
+.logo{
+    color: aqua;
+}
+
+.hero nav a{
+    padding-left: 45px;
+    text-decoration: none;
+    color: aqua;
+}
+.middle{
+    height: 80vh;
+    background: linear-gradient(120deg, #00d9ff, #0077ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+@keyframes zoomin {
+    0%{
+        transform: translateY(0px);
+
+    }
+    50%{
+        transform: translateY(-10px);
+
+    }
+    0%{
+        transform: translateY(0px);
+
+    }
+
+    
+}
+.herotime h1{
+    font-size: 45px;
+    padding-bottom: 20px;
+    animation: zoomin 5s ease-in infinite;
+}
+.herotime p{
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 25px
+}
+.herotime button{
+    font-size: 17px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background: linear-gradient(#d7dade,#e5e8e9);
+    color: black;
+    font-weight:300;
+    
+    
+    
+}
+
+.herotime button:hover{
+   background: black;
+    color: azure;
+    border: 2px solid white;
+    cursor: pointer;
+    
+
+}
+
+.features{
+    padding-top: 40px;
+    height: 30vh;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.features h3{
+    font-size: 30px;
+}
+.features .cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    gap: 80px;
+}
+.features .card{
+    font-size: 20px;
+    background-color: rgb(237, 230, 230);
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+.features .card p{
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.features .card:hover{
+    transform: translateY(-10px);
+}
+
+.about{
+    top: 200px;
+    padding: 100px;
+    text-align: center;
+    background: rgb(249, 252, 252);
+}
+
+.about h3{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.about p{
+    font-size: 20px;
+    
+}
+.final{
+    background: black;
+    color:rgb(244, 241, 238);
+    text-align: center;
+    padding: 20px;
+}
+.final h3{
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.final p{
+    padding-top: 10px;
+}
+
+
+
